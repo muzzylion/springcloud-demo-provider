@@ -1,0 +1,4 @@
+demoprovider\demo\message\UserMessage.class
+demoprovider\demo\controller\HelloWorldController.class
+demoprovider\demo\DemoApplication.class
+demoprovider\demo\message\UserMessageListener.class

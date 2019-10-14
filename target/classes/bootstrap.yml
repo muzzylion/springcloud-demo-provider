@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: p1
+  devtools:
+    restart:
+      exclude: static/**,templates/**
+      enabled: true #热部署打开
+  #thymelea模板配置
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+logging: 
+  level:
+    root: info
+  path: D:\logs\
